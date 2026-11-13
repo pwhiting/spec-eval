@@ -1,0 +1,10 @@
+[project]
+name = "spec-eval"
+version = "0.1.0"
+description = "Ask a model every example in the OpenAI Model Spec and have Jev grade the answers"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.41.0",
+    "httpx>=0.28.1",
+    "beautifulsoup4>=4.12",
+]
