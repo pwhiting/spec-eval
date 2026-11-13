@@ -14,8 +14,7 @@ as the assistant's reply, the way the spec reads.
   uv run extract_spec.py https://model-spec.openai.com/<version>.html
   uv run extract_spec.py saved-page.html                   # or a saved .html / Safari .webarchive
 
-Prefer the published page to a browser-saved copy: a saved copy has the math already rendered by
-MathJax, which flattens badly (4/3 pi r^3 becomes "43πr3"); the published page keeps the LaTeX.
+Prefer the published page to a browser-saved copy.
 """
 import argparse
 import json
