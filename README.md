@@ -114,8 +114,7 @@ a BAD reference's mistake.
 uv run extract_spec.py https://model-spec.openai.com/<version>.html -o spec_examples.json
 ```
 
-Use the published page, not a browser-saved copy: a saved copy has the math already rendered, which
-flattens badly (4/3 πr³ becomes "43πr3"); the published page keeps the LaTeX.
+Use the published page, not a browser-saved copy.
 
 ## License of the spec
 
